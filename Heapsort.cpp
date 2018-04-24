@@ -27,6 +27,7 @@ void heapify(int arr[], int n, int i)
 // main function to do heap sort
 void heapSort(int arr[], int n)
 {
+<<<<<<< HEAD
     
   // Build heap (rearrange array)
     for (int i = n / 2 - 1; i >= 0; i--)
@@ -53,6 +54,11 @@ void heapSort(int arr[], int n)
     } 
    
 >>>>>>> origin/test8
+=======
+    // Build heap (rearrange array)// to be added by pratyush
+   
+    // One by one extract an element from heap // to be added by rachit
+>>>>>>> origin/main
    
 }
  
@@ -63,7 +69,17 @@ void printArray(int arr[], int n) // to be added by saurabh
 }
  
 // Driver program
-int main() // to be added by sajal
+int main() // added by sajal
 {
+<<<<<<< HEAD
    
+=======
+ int arr[] = {12, 11, 13, 5, 6, 7};
+    int n = sizeof(arr)/sizeof(arr[0]);
+ 
+    heapSort(arr, n);
+ 
+    cout << "Sorted array is \n";
+    printArray(arr, n);
+>>>>>>> origin/main
 }
