@@ -32,7 +32,6 @@ void heapSort(int arr[], int n)
 {
     // Build heap (rearrange array)// to be added by pratyush
    
- 
     // One by one extract an element from heap // to be added by rachit
    
 }
@@ -44,7 +43,13 @@ void printArray(int arr[], int n) // to be added by saurabh
 }
  
 // Driver program
-int main() // to be added by sajal
+int main() // added by sajal
 {
-   
+ int arr[] = {12, 11, 13, 5, 6, 7};
+    int n = sizeof(arr)/sizeof(arr[0]);
+ 
+    heapSort(arr, n);
+ 
+    cout << "Sorted array is \n";
+    printArray(arr, n);
 }
