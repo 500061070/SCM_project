@@ -30,7 +30,14 @@ void heapSort(int arr[], int n)
     // Build heap (rearrange array)// to be added by pratyush
    
  
-    // One by one extract an element from heap // to be added by rachit
+    // One by one extract an element from heap // necessary changes done
+ for (int i=n-1; i>=0; i--)
+    {
+        // Move current root to end
+        swap(arr[0], arr[i]);
+ 
+        // call max heapify on the reduced heap
+        heapify(arr, i, 0);
    
 }
  
