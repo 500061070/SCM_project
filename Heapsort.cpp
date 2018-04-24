@@ -41,6 +41,9 @@ void heapSort(int arr[], int n)
 void printArray(int arr[], int n) // to be added by saurabh
 {
   
+    for (int i=0; i<n; ++i)
+        cout << arr[i] << " ";
+    cout << "\n";
 }
  
 // Driver program
