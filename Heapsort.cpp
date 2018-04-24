@@ -18,12 +18,9 @@ void heapify(int arr[], int n, int i)
         largest = r;
  
     // If largest is not root
-    if (largest != i)
+    if (largest != i) // to be added by shivam
     {
-        swap(arr[i], arr[largest]);
- 
-        // Recursively heapify the affected sub-tree
-        heapify(arr, n, largest);
+        
     }
 }
  
